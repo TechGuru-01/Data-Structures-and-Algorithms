@@ -3,9 +3,10 @@ What is Selection Sort?
 - Selection Sort is a comparison-based sorting algorithm. 
 - It sorts by repeatedly selecting the smallest (or largest) element from the unsorted portion and swapping it with the first unsorted element.
 
-- Find the smallest element and swap it with the first element. This way we get the smallest element at its correct position.
-- Then find the smallest among remaining elements (or second smallest) and swap it with the second element.
-- We keep doing this until we get all elements moved to correct position.
+How it works?
+- Identify the minimum value in the array and exchange it with the element at the first index, placing it in its correct position.
+- Next, locate the smallest element from the remaining unsorted portion and swap it with the element at the second index.
+- This process is repeated, reducing the unsorted section each time, until all elements are arranged in their proper order.
 '''
 
 def selectionSort(arr):
